@@ -14,7 +14,7 @@
     },
     "name": "studioforty9/performance",
     "require": {
-        "magento-hackathon/magento-composer-installer": "2.1.1"
+        "magento-hackathon/magento-composer-installer": "dev-master"
     },
     "type": "magento-module",
     "version": "dev-master"
