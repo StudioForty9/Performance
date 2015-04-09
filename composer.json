@@ -1,0 +1,21 @@
+{
+    "description": "StudioForty9 Performance module",
+    "extra": {
+        "map": [
+            [
+                "app/etc/modules/StudioForty9_Performance.xml",
+                "app/etc/modules/StudioForty9_Performance.xml"
+            ],
+            [
+                "app/code/community/StudioForty9/Performance/",
+				"app/code/community/StudioForty9/Performance/"
+            ]
+        ]
+    },
+    "name": "studioforty9/performance",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "type": "magento-module",
+    "version": "dev-master"
+}
