@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <StudioForty9_Performance>
+        <Studioforty9_Performance>
             <active>true</active>
             <codePool>community</codePool>
             <depends>
                 <Zookal_Mock/>
             </depends>
-        </StudioForty9_Performance>
+        </Studioforty9_Performance>
 
         <Mage_Log>
             <active>false</active>

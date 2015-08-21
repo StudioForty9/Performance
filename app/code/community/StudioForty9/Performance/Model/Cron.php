@@ -1,6 +1,6 @@
 <?php
 
-class StudioForty9_Performance_Model_Cron
+class Studioforty9_Performance_Model_Cron
 {
     public function refresh_invalidated_cache()
     {

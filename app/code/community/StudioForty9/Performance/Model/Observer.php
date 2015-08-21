@@ -1,6 +1,6 @@
 <?php
 
-class StudioForty9_Performance_Model_Observer extends Varien_Event_Observer
+class Studioforty9_Performance_Model_Observer extends Varien_Event_Observer
 {
     public function cmsPageRender($observer)
     {

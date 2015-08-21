@@ -1,37 +1,37 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <StudioForty9_Performance>
+        <Studioforty9_Performance>
             <version>0.1.0</version>
-        </StudioForty9_Performance>
+        </Studioforty9_Performance>
     </modules>
     <global>
         <models>
-            <studioforty9_performance>
-                <class>StudioForty9_Performance_Model</class>
-                <resourceModel>studioforty9_performance_resource</resourceModel>
-            </studioforty9_performance>
-            <studioforty9_performance_resource>
-                <class>StudioForty9_Performance_Model_Resource</class>
-            </studioforty9_performance_resource>
+            <Studioforty9_performance>
+                <class>Studioforty9_Performance_Model</class>
+                <resourceModel>Studioforty9_performance_resource</resourceModel>
+            </Studioforty9_performance>
+            <Studioforty9_performance_resource>
+                <class>Studioforty9_Performance_Model_Resource</class>
+            </Studioforty9_performance_resource>
         </models>
         <blocks>
-            <studioforty9_performance>
-                <class>StudioForty9_Performance_Block</class>
-            </studioforty9_performance>
+            <Studioforty9_performance>
+                <class>Studioforty9_Performance_Block</class>
+            </Studioforty9_performance>
         </blocks>
         <helpers>
-            <studioforty9_performance>
-                <class>StudioForty9_Performance_Helper</class>
-            </studioforty9_performance>
+            <Studioforty9_performance>
+                <class>Studioforty9_Performance_Helper</class>
+            </Studioforty9_performance>
         </helpers>
 
         <resources>
-            <studioforty9_performance>
+            <Studioforty9_performance>
                 <setup>
-                    <module>StudioForty9_Performance</module>
+                    <module>Studioforty9_Performance</module>
                 </setup>
-            </studioforty9_performance>
+            </Studioforty9_performance>
         </resources>
     </global>
 
@@ -39,31 +39,31 @@
         <events>
             <cms_page_render>
                 <observers>
-                    <studioforty9_performance>
+                    <Studioforty9_performance>
                         <type>model</type>
-                        <class>studioforty9_performance/observer</class>
+                        <class>Studioforty9_performance/observer</class>
                         <method>cmsPageRender</method>
-                    </studioforty9_performance>
+                    </Studioforty9_performance>
                 </observers>
             </cms_page_render>
 
             <catalog_controller_category_init_after>
                 <observers>
-                    <studioforty9_performance>
+                    <Studioforty9_performance>
                         <type>model</type>
-                        <class>studioforty9_performance/observer</class>
+                        <class>Studioforty9_performance/observer</class>
                         <method>catalogControllerCategoryInitAfter</method>
-                    </studioforty9_performance>
+                    </Studioforty9_performance>
                 </observers>
             </catalog_controller_category_init_after>
 
             <catalog_controller_product_view>
                 <observers>
-                    <studioforty9_performance>
+                    <Studioforty9_performance>
                         <type>model</type>
-                        <class>studioforty9_performance/observer</class>
+                        <class>Studioforty9_performance/observer</class>
                         <method>catalogControllerProductView</method>
-                    </studioforty9_performance>
+                    </Studioforty9_performance>
                 </observers>
             </catalog_controller_product_view>
         </events>
@@ -76,7 +76,7 @@
                     <cron_expr>*/5 * * * *</cron_expr>
                 </schedule>
                 <run>
-                    <model>studioforty9_performance/cron::refresh_invalidated_cache</model>
+                    <model>Studioforty9_performance/cron::refresh_invalidated_cache</model>
                 </run>
             </refresh_invalidated_cache>
         </jobs>
