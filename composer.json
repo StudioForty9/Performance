@@ -16,6 +16,5 @@
     "require": {
         "magento-hackathon/magento-composer-installer": "*"
     },
-    "type": "magento-module",
-    "version": "dev-master"
+    "type": "magento-module"
 }
