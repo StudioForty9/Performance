@@ -3,12 +3,12 @@
     "extra": {
         "map": [
             [
-                "app/etc/modules/Studioforty9_Performance.xml",
-                "app/etc/modules/Studioforty9_Performance.xml"
+                "app/etc/modules/StudioForty9_Performance.xml",
+                "app/etc/modules/StudioForty9_Performance.xml"
             ],
             [
-                "app/code/community/Studioforty9/Performance/",
-                "app/code/community/Studioforty9/Performance/"
+                "app/code/community/StudioForty9/Performance/",
+                "app/code/community/StudioForty9/Performance/"
             ]
         ]
     },
